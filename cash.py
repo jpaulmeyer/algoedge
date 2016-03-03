@@ -1,7 +1,6 @@
 #cash6.py
 
 import csv
-import ystockquote
 from datetime import date
 from calendarplay import *
 from stockuniverses import *
