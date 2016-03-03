@@ -1,0 +1,501 @@
+date,symbol,GICS Sector
+10/1/13,A,Health Care
+10/1/13,AA,Materials
+10/1/13,AAPL,Information Technology
+10/1/13,ABBV,Health Care
+10/1/13,ABC,Health Care
+10/1/13,ABT,Health Care
+10/1/13,ACE,Financials
+10/1/13,ACN,Information Technology
+10/1/13,ACT,Health Care
+10/1/13,ADBE,Information Technology
+10/1/13,ADI,Information Technology
+10/1/13,ADM,Consumer Staples
+10/1/13,ADP,Information Technology
+10/1/13,ADS,Information Technology
+10/1/13,ADSK,Information Technology
+10/1/13,ADT,Industrials
+10/1/13,AEE,Utilities
+10/1/13,AEP,Utilities
+10/1/13,AES,Utilities
+10/1/13,AET,Health Care
+10/1/13,AFL,Financials
+10/1/13,AGN,Health Care
+10/1/13,AIG,Financials
+10/1/13,AIV,Financials
+10/1/13,AIZ,Financials
+10/1/13,AKAM,Information Technology
+10/1/13,ALL,Financials
+10/1/13,ALLE,Industrials
+10/1/13,ALTR,Information Technology
+10/1/13,ALXN,Health Care
+10/1/13,AMAT,Information Technology
+10/1/13,AME,Industrials
+10/1/13,AMGN,Health Care
+10/1/13,AMP,Financials
+10/1/13,AMT,Financials
+10/1/13,AMZN,Consumer Discretionary
+10/1/13,AN,Consumer Discretionary
+10/1/13,AON,Financials
+10/1/13,APA,Energy
+10/1/13,APC,Energy
+10/1/13,APD,Materials
+10/1/13,APH,Industrials
+10/1/13,ARG,Materials
+10/1/13,ATI,Materials
+10/1/13,AVB,Financials
+10/1/13,AVP,Consumer Staples
+10/1/13,AVY,Materials
+10/1/13,AXP,Financials
+10/1/13,AZO,Consumer Discretionary
+10/1/13,BA,Industrials
+10/1/13,BAC,Financials
+10/1/13,BAX,Health Care
+10/1/13,BBBY,Consumer Discretionary
+10/1/13,BBT,Financials
+10/1/13,BBY,Consumer Discretionary
+10/1/13,BCR,Health Care
+10/1/13,BDX,Health Care
+10/1/13,BEAM,Consumer Staples
+10/1/13,BEN,Financials
+10/1/13,BF.B,Consumer Staples
+10/1/13,BHI,Energy
+10/1/13,BIIB,Health Care
+10/1/13,BK,Financials
+10/1/13,BLK,Financials
+10/1/13,BLL,Materials
+10/1/13,BMS,Materials
+10/1/13,BMY,Health Care
+10/1/13,BRCM,Information Technology
+10/1/13,BRK.B,Financials
+10/1/13,BSX,Health Care
+10/1/13,BTU,Energy
+10/1/13,BWA,Consumer Discretionary
+10/1/13,BXP,Financials
+10/1/13,C,Financials
+10/1/13,CA,Information Technology
+10/1/13,CAG,Consumer Staples
+10/1/13,CAH,Health Care
+10/1/13,CAM,Energy
+10/1/13,CAT,Industrials
+10/1/13,CB,Financials
+10/1/13,CBG,Financials
+10/1/13,CBS,Consumer Discretionary
+10/1/13,CCE,Consumer Staples
+10/1/13,CCI,Telecommunications Services
+10/1/13,CCL,Consumer Discretionary
+10/1/13,CELG,Health Care
+10/1/13,CERN,Health Care
+10/1/13,CF,Materials
+10/1/13,CFN,Health Care
+10/1/13,CHK,Energy
+10/1/13,CHRW,Industrials
+10/1/13,CI,Health Care
+10/1/13,CINF,Financials
+10/1/13,CL,Consumer Staples
+10/1/13,CLF,Materials
+10/1/13,CLX,Consumer Staples
+10/1/13,CMA,Financials
+10/1/13,CMCSA,Consumer Discretionary
+10/1/13,CME,Financials
+10/1/13,CMG,Consumer Discretionary
+10/1/13,CMI,Industrials
+10/1/13,CMS,Utilities
+10/1/13,CNP,Utilities
+10/1/13,CNX,Energy
+10/1/13,COF,Financials
+10/1/13,COG,Energy
+10/1/13,COH,Consumer Discretionary
+10/1/13,COL,Industrials
+10/1/13,COP,Energy
+10/1/13,COST,Consumer Staples
+10/1/13,COV,Health Care
+10/1/13,CPB,Consumer Staples
+10/1/13,CRM,Information Technology
+10/1/13,CSC,Information Technology
+10/1/13,CSCO,Information Technology
+10/1/13,CSX,Industrials
+10/1/13,CTAS,Industrials
+10/1/13,CTL,Telecommunications Services
+10/1/13,CTSH,Information Technology
+10/1/13,CTXS,Information Technology
+10/1/13,CVC,Consumer Discretionary
+10/1/13,CVS,Consumer Staples
+10/1/13,CVX,Energy
+10/1/13,D,Utilities
+10/1/13,DAL,Industrials
+10/1/13,DD,Materials
+10/1/13,DE,Industrials
+10/1/13,DFS,Financials
+10/1/13,DG,Consumer Discretionary
+10/1/13,DGX,Health Care
+10/1/13,DHI,Consumer Discretionary
+10/1/13,DHR,Industrials
+10/1/13,DIS,Consumer Discretionary
+10/1/13,DISCA,Consumer Discretionary
+10/1/13,DLPH,Consumer Discretionary
+10/1/13,DLTR,Consumer Discretionary
+10/1/13,DNB,Industrials
+10/1/13,DNR,Energy
+10/1/13,DO,Energy
+10/1/13,DOV,Industrials
+10/1/13,DOW,Materials
+10/1/13,DPS,Consumer Staples
+10/1/13,DRI,Consumer Discretionary
+10/1/13,DTE,Utilities
+10/1/13,DTV,Consumer Discretionary
+10/1/13,DUK,Utilities
+10/1/13,DVA,Health Care
+10/1/13,DVN,Energy
+10/1/13,EA,Information Technology
+10/1/13,EBAY,Information Technology
+10/1/13,ECL,Materials
+10/1/13,ED,Utilities
+10/1/13,EFX,Financials
+10/1/13,EIX,Utilities
+10/1/13,EL,Consumer Staples
+10/1/13,EMC,Information Technology
+10/1/13,EMN,Materials
+10/1/13,EMR,Industrials
+10/1/13,EOG,Energy
+10/1/13,EQR,Financials
+10/1/13,EQT,Energy
+10/1/13,ESRX,Health Care
+10/1/13,ESV,Energy
+10/1/13,ETFC,Financials
+10/1/13,ETN,Industrials
+10/1/13,ETR,Utilities
+10/1/13,EW,Health Care
+10/1/13,EXC,Utilities
+10/1/13,EXPD,Industrials
+10/1/13,EXPE,Consumer Discretionary
+10/1/13,F,Consumer Discretionary
+10/1/13,FAST,Industrials
+10/1/13,FB,Information Technology
+10/1/13,FCX,Materials
+10/1/13,FDO,Consumer Discretionary
+10/1/13,FDX,Industrials
+10/1/13,FE,Utilities
+10/1/13,FFIV,Information Technology
+10/1/13,FIS,Information Technology
+10/1/13,FISV,Information Technology
+10/1/13,FITB,Financials
+10/1/13,FLIR,Industrials
+10/1/13,FLR,Industrials
+10/1/13,FLS,Industrials
+10/1/13,FMC,Materials
+10/1/13,FOSL,Consumer Discretionary
+10/1/13,FOXA,Consumer Discretionary
+10/1/13,FRX,Health Care
+10/1/13,FSLR,Industrials
+10/1/13,FTI,Energy
+10/1/13,FTR,Telecommunications Services
+10/1/13,GAS,Utilities
+10/1/13,GCI,Consumer Discretionary
+10/1/13,GD,Industrials
+10/1/13,GE,Industrials
+10/1/13,GGP,Financials
+10/1/13,GHC,Consumer Discretionary
+10/1/13,GILD,Health Care
+10/1/13,GIS,Consumer Staples
+10/1/13,GLW,Industrials
+10/1/13,GM,Consumer Discretionary
+10/1/13,GME,Consumer Discretionary
+10/1/13,GNW,Financials
+10/1/13,GOOG,Information Technology
+10/1/13,GPC,Consumer Discretionary
+10/1/13,GPS,Consumer Discretionary
+10/1/13,GRMN,Consumer Discretionary
+10/1/13,GS,Financials
+10/1/13,GT,Consumer Discretionary
+10/1/13,GWW,Industrials
+10/1/13,HAL,Energy
+10/1/13,HAR,Consumer Discretionary
+10/1/13,HAS,Consumer Discretionary
+10/1/13,HBAN,Financials
+10/1/13,HCBK,Financials
+10/1/13,HCN,Financials
+10/1/13,HCP,Financials
+10/1/13,HD,Consumer Discretionary
+10/1/13,HES,Energy
+10/1/13,HIG,Financials
+10/1/13,HOG,Consumer Discretionary
+10/1/13,HON,Industrials
+10/1/13,HOT,Consumer Discretionary
+10/1/13,HP,Energy
+10/1/13,HPQ,Information Technology
+10/1/13,HRB,Financials
+10/1/13,HRL,Consumer Staples
+10/1/13,HRS,Information Technology
+10/1/13,HSP,Health Care
+10/1/13,HST,Financials
+10/1/13,HSY,Consumer Staples
+10/1/13,HUM,Health Care
+10/1/13,IBM,Information Technology
+10/1/13,ICE,Financials
+10/1/13,IFF,Materials
+10/1/13,IGT,Consumer Discretionary
+10/1/13,INTC,Information Technology
+10/1/13,INTU,Information Technology
+10/1/13,IP,Materials
+10/1/13,IPG,Consumer Discretionary
+10/1/13,IR,Industrials
+10/1/13,IRM,Industrials
+10/1/13,ISRG,Health Care
+10/1/13,ITW,Industrials
+10/1/13,IVZ,Financials
+10/1/13,JBL,Information Technology
+10/1/13,JCI,Consumer Discretionary
+10/1/13,JEC,Industrials
+10/1/13,JNJ,Health Care
+10/1/13,JNPR,Information Technology
+10/1/13,JOY,Industrials
+10/1/13,JPM,Financials
+10/1/13,JWN,Consumer Discretionary
+10/1/13,K,Consumer Staples
+10/1/13,KEY,Financials
+10/1/13,KIM,Financials
+10/1/13,KLAC,Information Technology
+10/1/13,KMB,Consumer Staples
+10/1/13,KMI,Energy
+10/1/13,KMX,Consumer Discretionary
+10/1/13,KO,Consumer Staples
+10/1/13,KORS,Consumer Discretionary
+10/1/13,KR,Consumer Staples
+10/1/13,KRFT,Consumer Staples
+10/1/13,KSS,Consumer Discretionary
+10/1/13,KSU,Industrials
+10/1/13,L,Financials
+10/1/13,LB,Consumer Discretionary
+10/1/13,LEG,Industrials
+10/1/13,LEN,Consumer Discretionary
+10/1/13,LH,Health Care
+10/1/13,LIFE,Health Care
+10/1/13,LLL,Industrials
+10/1/13,LLTC,Information Technology
+10/1/13,LLY,Health Care
+10/1/13,LM,Financials
+10/1/13,LMT,Industrials
+10/1/13,LNC,Financials
+10/1/13,LO,Consumer Staples
+10/1/13,LOW,Consumer Discretionary
+10/1/13,LRCX,Information Technology
+10/1/13,LSI,Information Technology
+10/1/13,LUK,Financials
+10/1/13,LUV,Industrials
+10/1/13,LYB,Materials
+10/1/13,M,Consumer Discretionary
+10/1/13,MA,Information Technology
+10/1/13,MAC,Financials
+10/1/13,MAR,Consumer Discretionary
+10/1/13,MAS,Industrials
+10/1/13,MAT,Consumer Discretionary
+10/1/13,MCD,Consumer Discretionary
+10/1/13,MCHP,Information Technology
+10/1/13,MCK,Health Care
+10/1/13,MCO,Financials
+10/1/13,MDLZ,Consumer Staples
+10/1/13,MDT,Health Care
+10/1/13,MET,Financials
+10/1/13,MHFI,Financials
+10/1/13,MHK,Consumer Discretionary
+10/1/13,MJN,Consumer Staples
+10/1/13,MKC,Consumer Staples
+10/1/13,MMC,Financials
+10/1/13,MMM,Industrials
+10/1/13,MNST,Consumer Staples
+10/1/13,MO,Consumer Staples
+10/1/13,MON,Materials
+10/1/13,MOS,Materials
+10/1/13,MPC,Energy
+10/1/13,MRK,Health Care
+10/1/13,MRO,Energy
+10/1/13,MS,Financials
+10/1/13,MSFT,Information Technology
+10/1/13,MSI,Information Technology
+10/1/13,MTB,Financials
+10/1/13,MU,Information Technology
+10/1/13,MUR,Energy
+10/1/13,MWV,Materials
+10/1/13,MYL,Health Care
+10/1/13,NBL,Energy
+10/1/13,NBR,Energy
+10/1/13,NDAQ,Financials
+10/1/13,NE,Energy
+10/1/13,NEE,Utilities
+10/1/13,NEM,Materials
+10/1/13,NFLX,Information Technology
+10/1/13,NFX,Energy
+10/1/13,NI,Utilities
+10/1/13,NKE,Consumer Discretionary
+10/1/13,NLSN,Industrials
+10/1/13,NOC,Industrials
+10/1/13,NOV,Energy
+10/1/13,NRG,Utilities
+10/1/13,NSC,Industrials
+10/1/13,NTAP,Information Technology
+10/1/13,NTRS,Financials
+10/1/13,NU,Utilities
+10/1/13,NUE,Materials
+10/1/13,NVDA,Information Technology
+10/1/13,NWL,Consumer Discretionary
+10/1/13,NWSA,Consumer Discretionary
+10/1/13,OI,Materials
+10/1/13,OKE,Utilities
+10/1/13,OMC,Consumer Discretionary
+10/1/13,ORCL,Information Technology
+10/1/13,ORLY,Consumer Discretionary
+10/1/13,OXY,Energy
+10/1/13,PAYX,Information Technology
+10/1/13,PBCT,Financials
+10/1/13,PBI,Industrials
+10/1/13,PCAR,Industrials
+10/1/13,PCG,Utilities
+10/1/13,PCL,Financials
+10/1/13,PCLN,Consumer Discretionary
+10/1/13,PCP,Industrials
+10/1/13,PDCO,Health Care
+10/1/13,PEG,Utilities
+10/1/13,PEP,Consumer Staples
+10/1/13,PETM,Consumer Discretionary
+10/1/13,PFE,Health Care
+10/1/13,PFG,Financials
+10/1/13,PG,Consumer Staples
+10/1/13,PGR,Financials
+10/1/13,PH,Industrials
+10/1/13,PHM,Consumer Discretionary
+10/1/13,PKI,Health Care
+10/1/13,PLD,Financials
+10/1/13,PLL,Industrials
+10/1/13,PM,Consumer Staples
+10/1/13,PNC,Financials
+10/1/13,PNR,Industrials
+10/1/13,PNW,Utilities
+10/1/13,POM,Utilities
+10/1/13,PPG,Materials
+10/1/13,PPL,Utilities
+10/1/13,PRGO,Health Care
+10/1/13,PRU,Financials
+10/1/13,PSA,Financials
+10/1/13,PSX,Energy
+10/1/13,PVH,Consumer Discretionary
+10/1/13,PWR,Industrials
+10/1/13,PX,Materials
+10/1/13,PXD,Energy
+10/1/13,QCOM,Information Technology
+10/1/13,QEP,Energy
+10/1/13,R,Industrials
+10/1/13,RAI,Consumer Staples
+10/1/13,RDC,Energy
+10/1/13,REGN,Health Care
+10/1/13,RF,Financials
+10/1/13,RHI,Industrials
+10/1/13,RHT,Information Technology
+10/1/13,RIG,Energy
+10/1/13,RL,Consumer Discretionary
+10/1/13,ROK,Industrials
+10/1/13,ROP,Industrials
+10/1/13,ROST,Consumer Discretionary
+10/1/13,RRC,Energy
+10/1/13,RSG,Industrials
+10/1/13,RTN,Industrials
+10/1/13,SBUX,Consumer Discretionary
+10/1/13,SCG,Utilities
+10/1/13,SCHW,Financials
+10/1/13,SE,Energy
+10/1/13,SEE,Materials
+10/1/13,SHW,Materials
+10/1/13,SIAL,Materials
+10/1/13,SJM,Consumer Staples
+10/1/13,SLB,Energy
+10/1/13,SLM,Financials
+10/1/13,SNA,Consumer Discretionary
+10/1/13,SNDK,Information Technology
+10/1/13,SNI,Consumer Discretionary
+10/1/13,SO,Utilities
+10/1/13,SPG,Financials
+10/1/13,SPLS,Consumer Discretionary
+10/1/13,SRCL,Industrials
+10/1/13,SRE,Utilities
+10/1/13,STI,Financials
+10/1/13,STJ,Health Care
+10/1/13,STT,Financials
+10/1/13,STX,Information Technology
+10/1/13,STZ,Consumer Staples
+10/1/13,SWK,Consumer Discretionary
+10/1/13,SWN,Energy
+10/1/13,SWY,Consumer Staples
+10/1/13,SYK,Health Care
+10/1/13,SYMC,Information Technology
+10/1/13,SYY,Consumer Staples
+10/1/13,T,Telecommunications Services
+10/1/13,TAP,Consumer Staples
+10/1/13,TDC,Information Technology
+10/1/13,TE,Utilities
+10/1/13,TEG,Utilities
+10/1/13,TEL,Information Technology
+10/1/13,TGT,Consumer Discretionary
+10/1/13,THC,Health Care
+10/1/13,TIF,Consumer Discretionary
+10/1/13,TJX,Consumer Discretionary
+10/1/13,TMK,Financials
+10/1/13,TMO,Health Care
+10/1/13,TRIP,Consumer Discretionary
+10/1/13,TROW,Financials
+10/1/13,TRV,Financials
+10/1/13,TSN,Consumer Staples
+10/1/13,TSO,Energy
+10/1/13,TSS,Information Technology
+10/1/13,TWC,Consumer Discretionary
+10/1/13,TWX,Consumer Discretionary
+10/1/13,TXN,Information Technology
+10/1/13,TXT,Industrials
+10/1/13,TYC,Industrials
+10/1/13,UNH,Health Care
+10/1/13,UNM,Financials
+10/1/13,UNP,Industrials
+10/1/13,UPS,Industrials
+10/1/13,URBN,Consumer Discretionary
+10/1/13,USB,Financials
+10/1/13,UTX,Industrials
+10/1/13,V,Information Technology
+10/1/13,VAR,Health Care
+10/1/13,VFC,Consumer Discretionary
+10/1/13,VIAB,Consumer Discretionary
+10/1/13,VLO,Energy
+10/1/13,VMC,Materials
+10/1/13,VNO,Financials
+10/1/13,VRSN,Information Technology
+10/1/13,VRTX,Health Care
+10/1/13,VTR,Financials
+10/1/13,VZ,Telecommunications Services
+10/1/13,WAG,Consumer Staples
+10/1/13,WAT,Health Care
+10/1/13,WDC,Information Technology
+10/1/13,WEC,Utilities
+10/1/13,WFC,Financials
+10/1/13,WFM,Consumer Staples
+10/1/13,WHR,Consumer Discretionary
+10/1/13,WIN,Telecommunications Services
+10/1/13,WLP,Health Care
+10/1/13,WM,Industrials
+10/1/13,WMB,Energy
+10/1/13,WMT,Consumer Staples
+10/1/13,WPX,Energy
+10/1/13,WU,Information Technology
+10/1/13,WY,Financials
+10/1/13,WYN,Consumer Discretionary
+10/1/13,WYNN,Consumer Discretionary
+10/1/13,X,Materials
+10/1/13,XEL,Utilities
+10/1/13,XL,Financials
+10/1/13,XLNX,Information Technology
+10/1/13,XOM,Energy
+10/1/13,XRAY,Health Care
+10/1/13,XRX,Information Technology
+10/1/13,XYL,Industrials
+10/1/13,YHOO,Information Technology
+10/1/13,YUM,Consumer Discretionary
+10/1/13,ZION,Financials
+10/1/13,ZMH,Health Care
+10/1/13,ZTS,Health Care

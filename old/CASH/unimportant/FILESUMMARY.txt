@@ -1,0 +1,94 @@
+File summary
+
+1) Biglist.csv
+	- Contains every line and splitline, written by cash4.py's last run
+	- col 0: line/splitline
+	- col 1: date (sorted on)
+	- col 2 & 3: splitfrom, splitto
+	- col 2 through 12: close, kno, w, h, e, n, rd, perc, last1, last2
+	
+2) boughtlist.csv
+	- ???
+	- Has 329 stocks, from A to ZION
+	
+3) cash4.py
+	- Motherfile! Runs the test on the past x years of stock data using strat spec. in lc3
+	- Imports lineclass3
+	- Input csv files: 
+		sp500test1.csv (main) OR testaapl.csv OR testabt.csv
+		allsplitlines (main) OR sp500splitlines.csv OR aaplsplits.csv OR fakesplits.csv
+		sp500currvals.csv (main)
+	- Output csv files:
+		cashlog.csv (main)
+		cashes.csv (main)
+		stocklist.csv
+	- Globals used and purpose:
+		a, x, z: for filenames, makes it easy to change and not forget
+		stocklines: [] container for all the splitlines before they go into biglist
+		prices: {stock : price}  all the current ystockquote prices from sp500currvals.csv
+		cashes: [] container for each amount of cash after every transaction along the way (writes to cashes.csv)
+		biglist: has all the Lines and StockLines, gets sorted by date
+		startingcash: self explanatory
+		cash: changes as you go, current amount of cash you have
+		forbidden: [] container of all the stocks that came back from ystockquote's lookup as N/A, catches that issue
+		(imports lineclass too)
+		
+4) cashes.csv
+	- detailed above, essentially each cash value as we go. Can be made into an excel wkbk and make a graph from it?
+
+5) cashlog.csv
+	- contains every BUY and SELL (ADD and SUB) call made in the run of analyze(), gets processed later
+	
+6) dateclass.py
+	- contains the Date class, useful for sorting and for standardizing dates
+	
+7) fakesplits.csv
+	- some splitlines for testing (A, AA, AAPL, ABT, etc) (just a few at a time)
+	
+8) lineclass3.py
+	- Contains all the classes for Line, Date, and SplitLine. Very useful, imported by cash4.py
+	- constants
+		mystocks: {} portfolio essentially
+		cashlog: [] local cashlog?
+		position: the value of one position
+
+9) logstocks.py
+	- uses ystockquote to get current price of all the stocks being used, then logs them in sp500currvals.csv
+	
+10) sp500currvals.csv
+	- all the current prices of sp500 stocks
+	
+11) sp500splitlines.csv
+	- manually inputted splits :( replaced by allsplitlines
+	
+12) sp500test1
+	- current file from innovest, has all the history and recommendations
+	
+13) stocklist.csv
+	- Every stock ever bought, first row is "boughtlist", outputted by cash4.py
+	
+14) testabt.csv
+	- Another testing file with 4 stocks-worth of Lines
+	
+15) handtest.py
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

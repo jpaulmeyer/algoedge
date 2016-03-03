@@ -1,0 +1,99 @@
+# Put any initialization logic here.  The context object will be passed to
+# the other methods in your algorithm.
+def initialize(context):
+    print 'weeee'
+    fetch_csv('https://copy.com/yUdRgmcBosejm3h2',date_column='date',date_format='%m/%d/%y')
+    set_symbol_lookup_date('2015-06-16')
+    context.sp500 = [
+        sid(24757),sid(2),sid(24),sid(43694),sid(22954), sid(62), sid(8580), sid(25555),sid(8580),sid(122),sid(128), sid(630),sid(22747), sid(67), sid(43399),sid(24783),sid(161),sid(166), sid(168),sid(185),sid(205), sid(239),sid(11598),sid(262),sid(20680),sid(24838),sid(13494),sid(328), sid(14328),sid(337),sid(353),sid(368),sid(27676),sid(24760),sid(16841), sid(410),sid(438),sid(448),sid(455),sid(460),sid(465),sid(510),sid(24840), sid(18834),sid(660),sid(663),sid(679),sid(693),sid(698),sid(700),sid(734), sid(739),sid(16850),sid(754),sid(779),sid(794),sid(338),sid(812),sid(858),sid(3806),sid(903),sid(20689),sid(939),sid(975),sid(980),sid(18529),sid(1131),sid(22660),sid(9514),sid(17009),sid(1335),sid(1209),sid(1228),sid(1376),sid(13176),sid(1267),sid(1274),sid(26367),sid(7962),sid(1332),sid(19258),sid(1406),sid(1419),sid(1745),sid(38691),sid(8461),sid(17632),sid(1539),sid(1551),sid(1582),sid(1595),sid(1616),sid(1620),sid(24475),sid(28016),sid(1985),sid(1665),sid(24064),sid(24758),sid(12160),sid(1746),sid(22099),sid(22880),sid(23998),sid(1787),sid(34010),sid(1795),sid(8621),sid(1898),sid(1900),sid(1937),sid(1941),sid(1960),sid(18870),sid(14014),sid(2000),sid(4799),sid(23112),sid(2071),sid(2079),sid(2119),sid(2127),sid(34011),sid(2254),sid(16348),sid(2298),sid(2170),sid(2190),sid(42173),sid(12652),sid(2237),sid(15789),sid(13635),sid(2262),sid(2263),sid(36118),sid(12882),sid(2330),sid(26111),sid(2351),sid(22110),sid(2368),sid(2602),sid(24819),sid(2427),sid(2434),sid(2465),sid(14372),sid(13841),sid(2518),sid(10594),sid(2530),sid(2564),sid(9540),sid(2587),sid(2618),sid(2621),sid(15474),sid(2633),sid(2637),sid(21382),sid(22114),sid(2663)
+    ]
+    
+    #      symbol('EXPE'), symbol('F'), symbol('FAST'), symbol('FB'), symbol('FCX'), symbol('FDO'), symbol('FDX'), symbol('FE'), symbol('FFIV'), symbol('FIS'), symbol('FISV'), symbol('FITB'), symbol('FLIR'), symbol('FLR'), symbol('FLS'), symbol('FMC'), symbol('FOSL'), symbol('FOX'), symbol('FOXA'), symbol('FRX'), symbol('FSLR'), symbol('FTI'), symbol('FTR'), symbol('GAS'), symbol('GCI'), symbol('GD'), symbol('GE'), symbol('GGP'), symbol('GHC'), symbol('GILD'), symbol('GIS'), symbol('GLW'), symbol('GM'), symbol('GME'), symbol('GNW'), symbol('GOOG'), symbol('GPC'), symbol('GPS'), symbol('GRMN'), symbol('GS'), symbol('GT'), symbol('GWW'), symbol('HAL'), symbol('HAR'), symbol('HAS'), symbol('HBAN'), symbol('HCBK'), symbol('HCN'), symbol('HCP'), symbol('HD'), symbol('HES'), symbol('HIG'), symbol('HOG'), symbol('HON'), symbol('HOT'), symbol('HP'), symbol('HPQ'), symbol('HRB'), symbol('HRL'), symbol('HRS'), symbol('HSP'), symbol('HST'), symbol('HSY'), symbol('HUM'), symbol('IBM'), symbol('ICE'), symbol('IFF'), symbol('IGT'), symbol('INTC'), symbol('INTU'), symbol('IP'), symbol('IPG'), symbol('IR'), symbol('IRM'), symbol('ISRG'), symbol('ITW'), symbol('IVZ'), symbol('JBL'), symbol('JCI'), symbol('JEC'), symbol('JNJ'), symbol('JNPR'), symbol('JOY'), symbol('JPM'), symbol('JWN'), symbol('K'), symbol('KEY'), symbol('KIM'), symbol('KLAC'), symbol('KMB'), symbol('KMI'), symbol('KMX'), symbol('KO'), symbol('KORS'), symbol('KR'), symbol('KRFT'), symbol('KSS'), symbol('KSU'), symbol('L'), symbol('LB'), symbol('LEG'), symbol('LEN'), symbol('LH'), symbol('LIFE'), symbol('LLL'), symbol('LLTC'), symbol('LLY'), symbol('LM'), symbol('LMT'), symbol('LNC'), symbol('LO'), symbol('LOW'), symbol('LRCX'), symbol('LSI'), symbol('LUK'), symbol('LUV'), symbol('LYB'), symbol('M'), symbol('MA'), symbol('MAC'), symbol('MAR'), symbol('MAS'), symbol('MAT'), symbol('MCD'), symbol('MCHP'), symbol('MCK'), symbol('MCO'), symbol('MDLZ'), symbol('MDT'), symbol('MET'), symbol('MHFI'), symbol('MHK'), symbol('MJN'), symbol('MKC'), symbol('MMC'), symbol('MMM'), symbol('MNST'), symbol('MO'), symbol('MON'), symbol('MOS'), symbol('MPC'), symbol('MRK'), symbol('MRO'), symbol('MS'), symbol('MSFT'), symbol('MSI'), symbol('MTB'), symbol('MU'), symbol('MUR'), symbol('MWV'), symbol('MYL'), symbol('NBL'), symbol('NBR'), symbol('NE'), symbol('NEE'), symbol('NEM'), symbol('NFLX'), symbol('NFX'), symbol('NI'), symbol('NKE'), symbol('NLSN'), symbol('NOC'), symbol('NOV'), symbol('NRG'), symbol('NSC'), symbol('NTAP'), symbol('NTRS'), symbol('NUE'), symbol('NVDA'), symbol('NWS'), symbol('NWL'), symbol('OI'), symbol('OKE'), symbol('OMC'), symbol('ORCL'), symbol('ORLY'), symbol('OXY'), symbol('PAYX'), symbol('PBCT'), symbol('PBI'), symbol('PCAR'), symbol('PCG'), symbol('PCL'), symbol('PCLN'), symbol('PCP'), symbol('PDCO'), symbol('PEG'), symbol('PEP'), symbol('PETM'), symbol('PFE'), symbol('PFG'), symbol('PG'), symbol('PGR'), symbol('PH'), symbol('PHM'), symbol('PKI'), symbol('PLD'), symbol('PLL'), symbol('PM'), symbol('PNC'), symbol('PNR'), symbol('PNW'), symbol('POM'), symbol('PPG'), symbol('PPL'), symbol('PRGO'), symbol('PRU'), symbol('PSA'), symbol('PSX'), symbol('PVH'), symbol('PWR'), symbol('PX'), symbol('PXD'), symbol('QCOM'), symbol('QEP'), symbol('R'), symbol('RAI'), symbol('RDC'), symbol('REGN'), symbol('RF'), symbol('RHI'), symbol('RHT'), symbol('RIG'), symbol('RL'), symbol('ROK'), symbol('ROP'), symbol('ROST'), symbol('RRC'), symbol('RSG'), symbol('RTN'), symbol('SBUX'), symbol('SCG'), symbol('SCHW'), symbol('SE'), symbol('SEE'), symbol('SHW'), symbol('SIAL'), symbol('SJM'), symbol('SLB'), symbol('SLM'), symbol('SNA'), symbol('SNDK'), symbol('SNI'), symbol('SO'), symbol('SPG'), symbol('SPLS'), symbol('SRCL'), symbol('SRE'), symbol('STI'), symbol('STJ'), symbol('STT'), symbol('STX'), symbol('STZ'), symbol('SWK'), symbol('SWN'), symbol('SWY'), symbol('SYK'), symbol('SYMC'), symbol('SYY'), symbol('T'), symbol('TAP'), symbol('TDC'), symbol('TE'), symbol('TEG'), symbol('TEL'), symbol('TGT'), symbol('THC'), symbol('TIF'), symbol('TJX'), symbol('TMK'), symbol('TMO'), symbol('TRIP'), symbol('TROW'), symbol('TRV'), symbol('TSN'), symbol('TSO'), symbol('TSS'), symbol('TWC'), symbol('TWX'), symbol('TXN'), symbol('TXT'), symbol('TYC'), symbol('UNH'), symbol('UNM'), symbol('UNP'), symbol('UPS'), symbol('URBN'), symbol('USB'), symbol('UTX'), symbol('V'), symbol('VAR'), symbol('VFC'), symbol('VIAB'), symbol('VLO'), symbol('VMC'), symbol('VNO'), symbol('VRSN'), symbol('VRTX'), symbol('VTR'), symbol('VZ'), symbol('WAT'), symbol('WDC'), symbol('WEC'), symbol('WFC'), symbol('WFM'), symbol('WHR'), symbol('WIN'), symbol('WLP'), symbol('WM'), symbol('WMB'), symbol('WMT'), symbol('WPX'), symbol('WU'), symbol('WY'), symbol('WYN'), symbol('WYNN'), symbol('X'), symbol('XEL'), symbol('XL'), symbol('XLNX'), symbol('XOM'), symbol('XRAY'), symbol('XRX'), symbol('XYL'), symbol('YHOO'), symbol('YUM'), symbol('ZION'), symbol('ZMH'), symbol('ZTS')]'''
+    context.prev_positions = {}
+    for stock in context.sp500:
+        context.prev_positions[stock] = 0.0    
+    
+# Will be called on every trade event for the securities you specify. 
+def handle_data(context, data):
+    # Implement your algorithm logic here.
+
+    # data[sid(X)] holds the trade event data for that security.
+    # context.portfolio holds the current portfolio state.
+
+    # Place orders with the order(SID, amount) method.
+    
+    #stockinfo is always data[stock]
+    #changeup = 50.0 #200,000 ish $
+    pos = 30000#changeup*context.portfolio.starting_cash/len(context.sp500)
+    
+    logging = True
+    
+    def minus(amt, stockinfo):
+        prev = context.prev_positions[stockinfo.sid]
+        if amt > prev:
+            order_target_value(stockinfo.sid, pos*amt)
+            context.prev_positions[stockinfo.sid] = amt
+            if logging:
+                log.info("Buy up to " + str(amt) + " " + stockinfo.sid.symbol)
+        elif amt <= prev:
+            pass
+        
+    
+    def plus(amt, stockinfo, logging=False):
+        prev = context.prev_positions[stockinfo.sid]
+        if prev == 0:
+            pass
+        elif amt >= prev:
+            order_target_value(stockinfo.sid, 0)
+            context.prev_positions[stockinfo.sid] = 0
+            if logging:
+                log.info("Sold ALL " + stockinfo.sid.symbol)      
+        elif amt < prev:
+            finalpos = prev-amt
+            order_target_value(stockinfo.sid, finalpos*pos)
+            context.prev_positions[stockinfo.sid] = finalpos
+            if logging:
+                log.info("Sold down to " + str(finalpos) + " " + stockinfo.sid.symbol)          
+    
+    def seehowmuch(kno,pct):
+        if kno == 311:
+            if pct == 83:
+                return .25
+            elif pct == 92:
+                return .5
+            elif pct == 100:
+                return 1.0
+        elif kno in [321,331] and pct == 100:
+            return .25
+        elif kno == 111 and pct == 100:
+            return 1.0
+        elif kno == 381:
+            if pct == 92:
+                return .25
+            elif pct == 100:
+                return .5
+        elif kno == 391:
+            if pct == 100:
+                return .25
+            
+    #check all
+    for stock in context.sp500:
+        if 'kno' in data[stock] and 'pct' in data[stock]:
+            try:
+                if data[stock]['kno'] in [311,313,111,321,331,391]: #381
+                    #check position-wise
+                    plus(seehowmuch(data[stock]["kno"],data[stock]["pct"]), data[stock])
+                elif data[stock]['kno'] in [851,691,692]:
+                    #check position-wise
+                    minus(1.0, data[stock])
+            except:
+                log.error(data[stock].sid.symbol + " can't be traded")
+          
+    #records variables
+    acc = 0
+    for pos in context.prev_positions.keys():
+        if context.prev_positions[pos] > 0.0:
+            acc += 1
+    if not logging:
+        log.info(str(acc))
+    record(cash_on_hand = context.portfolio.cash, portfolio_value = context.portfolio.portfolio_value, positions_value = context.portfolio.positions_value, num_positions = acc, total_positions = sum(context.prev_positions.values()))
